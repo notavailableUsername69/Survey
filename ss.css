@@ -1,0 +1,52 @@
+body {
+    background-color: maroon;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    width: 400px;
+    margin: 0 auto;
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+h2 {
+    color: gold;
+}
+
+label {
+    color: gold;
+}
+
+input [type="text"],
+select,
+[type="number"] {
+    width: 100%;
+    padding: 5px;
+    color: gold;
+    background-color: maroon;
+    border: none;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: gold;
+    color: maroon;
+    border: none;
+    cursor: pointer;
+}
+
+#results {
+    margin-top: 20px;
+    padding-top: 20px;
+    border-top: 1px solid gold;
+}
+
+#results h3 {
+    color: gold;
+}
+
+#results p {
+    color: gold;
+}
